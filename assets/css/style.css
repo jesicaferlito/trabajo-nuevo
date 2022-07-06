@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(138, 95, 179);
+    text-align: center;
+    animation-duration: 3s;
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.main{
+    text-align: center;
+    background-image: url(../img/imagenfondo.jpg)
+}
+
+.row{
+    color:  rgb(39, 22, 68);
+    font-size: 30px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.sidebar{
+    background-color: rgb(138, 95, 179);
+    text-align: center;
+}
+
+.footer{
+    background-image: url(../img/imagenfondo.jpg);
+}
+
+.btn{
+    color:rgb(138, 95, 179) ;
+}
+
+.ul{
+    text-align:start;
+}
+ 
+.img-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: inherit;
+    padding: 10px;
+}
