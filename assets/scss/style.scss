@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #fff;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.header{
+    margin: 5px;
+    background-color: rgb(138, 95, 179);
+    text-align: center;
+    animation-name: aparecer;
+    animation-duration: 3s;
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.main{
+    margin: 5px;
+    text-align: center;
+    background-image: url(../img/imagenfondo.jpg)
+}
+
+.row{
+    color:  rgb(39, 22, 68);
+    font-size: 30px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.sidebar{
+    margin: 5px;
+    background-color: rgb(138, 95, 179);
+    text-align: center;
+    ul{
+        margin: 5px;
+        font-size: 20px;
+        li{
+            text-align: start;
+        }
+    }
+}
+
+.footer{
+    margin: 5px;
+    padding: 10px;
+    background-image: url(../img/imagenfondo.jpg);
+}
+
+.btn{
+    color:rgb(26, 3, 49) ;
+    background-color: aliceblue;
+}
+
+.ul{
+    text-align:start;
+}
+ 
+.img-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: inherit;
+    padding: 10px;
+}
+
+.form{
+    margin: 20px;
+    background-color: darkgrey;
+    border-radius: 5px;
+    align-items: center;
+}
+
