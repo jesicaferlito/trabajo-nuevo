@@ -64,6 +64,7 @@
 .btn{
     color:rgb(26, 3, 49) ;
     background-color: aliceblue;
+    border-radius: 5px;
 }
 
 .ul{
@@ -73,9 +74,10 @@
 .img-fluid{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-around;
     flex-direction: inherit;
-    padding: 10px;
+    align-items: center;
+    
 }
 
 .form{
@@ -85,3 +87,11 @@
     align-items: center;
 }
 
+.tarjeta{
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    color:rgb(39, 22, 68);
+    background-color: plum;
+    border-radius: 5px;
+}
