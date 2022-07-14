@@ -1,0 +1,12 @@
+.sidebar{
+    margin: 5px;
+    background-color: $colorPrimario;
+    text-align: center;
+    ul{
+        margin: 5px;
+        font-size: 20px;
+        li{
+            text-align: start;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.header{
+    margin: 5px;
+    background-color:$colorPrimario;
+    text-align: center;
+    animation-name: aparecer;
+    animation-duration: 3s;
+    @keyframes aparecer {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}

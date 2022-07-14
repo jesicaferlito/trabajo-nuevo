@@ -17,7 +17,6 @@
   animation-name: aparecer;
   animation-duration: 3s;
 }
-
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -26,16 +25,13 @@
     opacity: 1;
   }
 }
+
 .main {
   margin: 5px;
   text-align: center;
   background-image: url(../img/imagenfondo.jpg);
-}
-
-.row {
-  color: rgb(39, 22, 68);
-  font-size: 30px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .sidebar {
@@ -55,6 +51,44 @@
   margin: 5px;
   padding: 10px;
   background-image: url(../img/imagenfondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer .pfoot {
+  font-size: 20px;
+  color: #000;
+  font-family: cursive;
+}
+
+.row {
+  color: rgb(39, 22, 68);
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.row .nov {
+  font-size: 35px;
+}
+
+.subp {
+  color: rgb(29, 2, 37);
+  font-size: 35px;
+  text-decoration-line: underline;
+}
+
+.form {
+  margin: 20px;
+  background-color: darkgrey;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.tarjeta {
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+  color: rgb(39, 22, 68);
+  background-image: url(../img/imagenfondo.jpg);
+  border-radius: 5px;
 }
 
 .btn {
@@ -73,20 +107,4 @@
   justify-content: space-around;
   flex-direction: inherit;
   align-items: center;
-}
-
-.form {
-  margin: 20px;
-  background-color: darkgrey;
-  border-radius: 5px;
-  align-items: center;
-}
-
-.tarjeta {
-  margin: 5px;
-  padding: 5px;
-  font-size: 15px;
-  color: rgb(39, 22, 68);
-  background-color: plum;
-  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */
