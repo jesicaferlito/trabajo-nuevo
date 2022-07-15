@@ -36,7 +36,6 @@
 
 .sidebar {
   margin: 5px;
-  background-color: rgb(138, 95, 179);
   text-align: center;
 }
 .sidebar ul {
@@ -91,10 +90,25 @@
   border-radius: 5px;
 }
 
-.btn {
-  color: rgb(26, 3, 49);
-  background-color: aliceblue;
+.btn, .btn-tercero, .btn-segundo, .btn-primero {
+  margin: 5px;
+  padding: 10px 15ps;
   border-radius: 5px;
+  width: 200px;
+  height: auto;
+  color: #000;
+}
+
+.btn-primero {
+  background-color: rgb(170, 122, 225);
+}
+
+.btn-segundo {
+  background-color: rgb(227, 206, 222);
+}
+
+.btn-tercero {
+  background-color: rgb(178, 219, 241);
 }
 
 .ul {
@@ -107,4 +121,8 @@
   justify-content: space-around;
   flex-direction: inherit;
   align-items: center;
+}
+
+.card {
+  background-color: rgb(138, 95, 179);
 }/*# sourceMappingURL=style.css.map */

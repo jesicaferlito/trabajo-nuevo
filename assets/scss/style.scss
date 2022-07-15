@@ -9,12 +9,8 @@
 @import "subp";
 @import "form";
 @import "tarjeta";
-
-.btn{
-    color:rgb(26, 3, 49) ;
-    background-color: aliceblue;
-    border-radius: 5px;
-}
+@import "mixin";
+@import "btn";
 
 .ul{
     text-align:start;
@@ -27,4 +23,7 @@
     flex-direction: inherit;
     align-items: center;
     
+}
+.card{
+    background-color: $colorPrimario;
 }

@@ -1,0 +1,6 @@
+@mixin propiedades($ancho,$alto,$colorLetra) {
+    width: $ancho;
+    height: $alto;
+    color: $colorLetra;
+    
+}

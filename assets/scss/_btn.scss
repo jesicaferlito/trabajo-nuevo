@@ -1,0 +1,17 @@
+.btn{
+    margin: map-get($btn, margin ); 
+    color: map-get($btn , color); 
+    padding: map-get($btn , padding);
+    border: map-get($btn, borde );
+    border-radius: map-get($btn, radio );
+    @include propiedades(200px, auto,#000 )
+ 
+ }
+ 
+ @each $key , $var in $colores { 
+     .btn-#{$key}{
+         @extend .btn;
+         background-color: $var;
+     }
+     
+ }
