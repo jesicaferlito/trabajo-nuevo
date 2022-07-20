@@ -12,8 +12,12 @@
 @import "mixin";
 @import "btn";
 
-.ul{
+.lista{
     text-align:start;
+    list-style:none;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
 }
  
 .img-fluid{
